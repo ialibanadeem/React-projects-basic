@@ -62,7 +62,6 @@ A star-based interactive rating component.
    npm run dev
    ```
 
-
 ## ⭐️ Star This Repo
 
 If you find this helpful or inspiring, consider giving it a ⭐️ to support the project!
