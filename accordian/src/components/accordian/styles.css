@@ -1,0 +1,80 @@
+/* Fullscreen wrapper with soft pink bg */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #ffe4f2, #fddde6);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Main accordion container */
+.accordion {
+  width: 100%;
+  max-width: 650px;
+  background-color: #fff0f6;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(255, 182, 193, 0.3);
+  padding: 10px;
+}
+
+/* Each question-answer item */
+.item {
+  background: #ffc6e0;
+  margin: 12px 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid #ffaad4;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.01);
+}
+
+/* Question title */
+.title {
+  color: #7a004f;
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffe4ec;
+  border-bottom: 1px solid #ffbad2;
+}
+
+/* "+" symbol style */
+.title span {
+  font-size: 1.5rem;
+  color: #e75480;
+}
+
+/* The answer content */
+.content {
+  background-color: #ffeaf5;
+  color: #9a0057;
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive;
+  padding: 16px 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animation for content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

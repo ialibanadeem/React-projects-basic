@@ -1,0 +1,29 @@
+.tree-nav {
+  width: 250px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.tree-item {
+  margin: 4px 0;
+}
+
+.tree-label {
+  cursor: pointer;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.tree-label:hover {
+  background-color: #e0e0e0;
+}
+
+.arrow {
+  font-size: 0.8rem;
+}
